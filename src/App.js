@@ -8,7 +8,7 @@ import MainDetails from "./components/MainDetails";
 import Table from "./components/Table";
 import Dates from "./components/Dates";
 import TableForm from "./components/TableForm";
-import ReactToPrint from "react-to-print";
+
 function App() {
   const [showInvoice, setShowInvoice] = useState(false);
   const [name, setName] = useState("");
